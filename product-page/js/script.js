@@ -9,7 +9,26 @@ let cart = {
         let products = '';
 
         for (i = 0; i < this.cart_array.length; i++) {
-            products += '<div class="flex"><div class="fb-20"><img src="images/image-product-1-thumbnail.jpg"></div><div class="fb-80">' + this.cart_array[0] + '</div></div>';
+            products += `
+            <div class="flex">
+            <div class="fb-20 miniature">
+                <img src="images/image-product-1-thumbnail.jpg">
+                </div>
+                <div class="fb-75">
+                    <ul>
+                        <li>
+                            ${this.cart_array[i][0]}
+                        </li>
+                        <li>
+                            $ ${this.cart_array[i][1]}
+                        </li>
+                    </ul>
+                </div>
+                <div class="fb-5 delete">
+                    <img src="images/icon-delete.svg">
+                </div>
+            </div>
+            `;
         }
         document.querySelector("#cartContainer").innerHTML = products;
     },
