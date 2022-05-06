@@ -57,16 +57,16 @@
       </div>
       <div>
         <div class="flex">
-          <div>
+          <div onclick="page_product.popup()">
             <img src="images/image-product-1.jpg" alt="">
           </div>
-          <div>
+          <div onclick="page_product.popup()">
             <img src="images/image-product-2.jpg" alt="">
           </div>
-          <div>
+          <div onclick="page_product.popup()">
             <img src="images/image-product-3.jpg" alt="">
           </div>
-          <div>
+          <div onclick="page_product.popup()">
             <img src="images/image-product-4.jpg" alt="">
           </div>
         </div>
@@ -109,11 +109,12 @@
       </div>
 
     </div>
+
     <div class="popup-img-product" id="popup">
+      <div class="cross" onclick="page_product.popup()">
+        🗙
+      </div>
       <div class="img_product">
-        <div class="cross" onclick="page_product.popup()">
-          🗙
-        </div>
         <div>
           <div class="first_image">
             <img src="images/image-product-1.jpg" alt="">
