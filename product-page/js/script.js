@@ -34,6 +34,9 @@ let page_product = {
         //Modification du prix en fonction du nombre d'exemplaires
         this.contentPrice.innerHTML = '$' + this.nbr_product * 125;
         this.contentPromo.innerHTML = this.nbr_product * 125 + (50 * this.nbr_product * 125 / 100) + '$';
+    },
+    popup: function () {
+        document.getElementById('popup').classList.toggle('popup-actif');
     }
 }
 
