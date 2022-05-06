@@ -17,7 +17,7 @@ main {
     margin: auto;
 }
 main > div {
-    padding: 6em;
+    padding: 3em;
 }
 
 header {
@@ -175,8 +175,8 @@ img {
         margin: auto;
 
         .first_image {
-            margin: auto;
             position: relative;
+            height: 80%;
 
             .ctrl {
                 position: absolute;
@@ -214,4 +214,5 @@ img {
     margin: 0.3em;
     font-size: 1.2em;
     float: right;
+    z-index: 999;
 }

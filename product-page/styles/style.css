@@ -10,7 +10,7 @@ main {
 }
 
 main > div {
-  padding: 6em;
+  padding: 3em;
 }
 
 header {
@@ -288,8 +288,8 @@ img {
 }
 
 .popup-img-product .img_product .first_image {
-  margin: auto;
   position: relative;
+  height: 80%;
 }
 
 .popup-img-product .img_product .first_image .ctrl {
@@ -330,5 +330,6 @@ img {
   margin: 0.3em;
   font-size: 1.2em;
   float: right;
+  z-index: 999;
 }
 /*# sourceMappingURL=style.css.map */
