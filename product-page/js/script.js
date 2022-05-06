@@ -35,9 +35,11 @@ let cart = {
         document.querySelector("#cartContainer").innerHTML = products;
     },
     deleteProduct: function () {
-        this.cart_array.splice(0, 1);
-
         cart.rewriteCart();
+        console.log(this.cart_array);
+        this.changeNbrCart(-this.cart_array[0][2]);
+
+        this.cart_array.splice(0, 1);
     },
     changeNbrCart: function (nbr) {
         this.nbr_product = this.nbr_product + nbr;
