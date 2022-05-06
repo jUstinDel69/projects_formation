@@ -173,7 +173,39 @@ img {
     .img_product {
         width: 30%;
         margin: auto;
+
+        .first_image {
+            margin: auto;
+            position: relative;
+
+            .ctrl {
+                position: absolute;
+                justify-content: space-between;
+                top: 45%;
+                left: 0;
+                margin: auto;
+
+                .slideBtn {
+                    background-color: white;
+                    margin: auto;
+                    border-radius: 150px;
+                    padding: 1em;
+                    width: 2em;
+                    height: 2em;
+                }
+
+                .left {
+                    transform: rotate(180deg);
+                }
+            }
+            .ctrl > div {
+                text-align: center;
+            }
+        }
     }
+}
+.popup-actif {
+    display: none;
 }
 
 .cross {

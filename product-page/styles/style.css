@@ -287,6 +287,43 @@ img {
   margin: auto;
 }
 
+.popup-img-product .img_product .first_image {
+  margin: auto;
+  position: relative;
+}
+
+.popup-img-product .img_product .first_image .ctrl {
+  position: absolute;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  top: 45%;
+  left: 0;
+  margin: auto;
+}
+
+.popup-img-product .img_product .first_image .ctrl .slideBtn {
+  background-color: white;
+  margin: auto;
+  border-radius: 150px;
+  padding: 1em;
+  width: 2em;
+  height: 2em;
+}
+
+.popup-img-product .img_product .first_image .ctrl .left {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.popup-img-product .img_product .first_image .ctrl > div {
+  text-align: center;
+}
+
+.popup-actif {
+  display: none;
+}
+
 .cross {
   color: white;
   font-weight: bold;
