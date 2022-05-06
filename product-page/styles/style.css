@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;600;800&display=swap");
-
 body {
   font-family: "Kumbh Sans", sans-serif;
 }
@@ -10,7 +9,7 @@ main {
   margin: auto;
 }
 
-main>div {
+main > div {
   padding: 6em;
 }
 
@@ -21,11 +20,11 @@ header {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 header img {
@@ -34,7 +33,7 @@ header img {
 
 header nav {
   -ms-flex-preferred-size: 40%;
-  flex-basis: 40%;
+      flex-basis: 40%;
 }
 
 header ul {
@@ -44,8 +43,8 @@ header ul {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 header ul li {
@@ -61,9 +60,9 @@ header ul li:hover {
 
 header .user {
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+      justify-content: space-around;
   -ms-flex-preferred-size: 20%;
-  flex-basis: 20%;
+      flex-basis: 20%;
 }
 
 .flex {
@@ -71,108 +70,108 @@ header .user {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .fb-5 {
   -ms-flex-preferred-size: 5%;
-  flex-basis: 5%;
+      flex-basis: 5%;
 }
 
 .fb-10 {
   -ms-flex-preferred-size: 10%;
-  flex-basis: 10%;
+      flex-basis: 10%;
 }
 
 .fb-15 {
   -ms-flex-preferred-size: 15%;
-  flex-basis: 15%;
+      flex-basis: 15%;
 }
 
 .fb-20 {
   -ms-flex-preferred-size: 20%;
-  flex-basis: 20%;
+      flex-basis: 20%;
 }
 
 .fb-25 {
   -ms-flex-preferred-size: 25%;
-  flex-basis: 25%;
+      flex-basis: 25%;
 }
 
 .fb-30 {
   -ms-flex-preferred-size: 30%;
-  flex-basis: 30%;
+      flex-basis: 30%;
 }
 
 .fb-35 {
   -ms-flex-preferred-size: 35%;
-  flex-basis: 35%;
+      flex-basis: 35%;
 }
 
 .fb-40 {
   -ms-flex-preferred-size: 40%;
-  flex-basis: 40%;
+      flex-basis: 40%;
 }
 
 .fb-45 {
   -ms-flex-preferred-size: 45%;
-  flex-basis: 45%;
+      flex-basis: 45%;
 }
 
 .fb-50 {
   -ms-flex-preferred-size: 50%;
-  flex-basis: 50%;
+      flex-basis: 50%;
 }
 
 .fb-55 {
   -ms-flex-preferred-size: 55%;
-  flex-basis: 55%;
+      flex-basis: 55%;
 }
 
 .fb-60 {
   -ms-flex-preferred-size: 60%;
-  flex-basis: 60%;
+      flex-basis: 60%;
 }
 
 .fb-65 {
   -ms-flex-preferred-size: 65%;
-  flex-basis: 65%;
+      flex-basis: 65%;
 }
 
 .fb-70 {
   -ms-flex-preferred-size: 70%;
-  flex-basis: 70%;
+      flex-basis: 70%;
 }
 
 .fb-75 {
   -ms-flex-preferred-size: 75%;
-  flex-basis: 75%;
+      flex-basis: 75%;
 }
 
 .fb-80 {
   -ms-flex-preferred-size: 80%;
-  flex-basis: 80%;
+      flex-basis: 80%;
 }
 
 .fb-85 {
   -ms-flex-preferred-size: 85%;
-  flex-basis: 85%;
+      flex-basis: 85%;
 }
 
 .fb-90 {
   -ms-flex-preferred-size: 90%;
-  flex-basis: 90%;
+      flex-basis: 90%;
 }
 
 .fb-95 {
   -ms-flex-preferred-size: 95%;
-  flex-basis: 95%;
+      flex-basis: 95%;
 }
 
 .fb-100 {
   -ms-flex-preferred-size: 100%;
-  flex-basis: 100%;
+      flex-basis: 100%;
 }
 
 img {
@@ -181,6 +180,19 @@ img {
 
 .img_product img {
   border-radius: 10px;
+}
+
+.img_product .flex {
+  margin: 2em auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.img_product .flex div {
+  -ms-flex-preferred-size: 20%;
+      flex-basis: 20%;
 }
 
 .description_product button.cartButton {
@@ -235,11 +247,10 @@ img {
   display: none;
   position: absolute;
   right: 1em;
-  padding: 2em;
   background-color: white;
   width: 30%;
   -webkit-box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+          box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
   border-radius: 15px;
 }
 
@@ -262,5 +273,4 @@ img {
 .cardBtn:hover .cart {
   display: block;
 }
-
 /*# sourceMappingURL=style.css.map */
