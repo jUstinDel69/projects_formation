@@ -27,6 +27,21 @@ header {
           justify-content: space-between;
 }
 
+header .ert {
+  position: relative;
+}
+
+header .ert .nbr {
+  background-color: orange;
+  position: absolute;
+  width: 110%;
+  text-align: center;
+  color: white;
+  border-radius: 50px;
+  top: -0.7em;
+  right: -1em;
+}
+
 header img#logo {
   padding-bottom: 2em;
 }
@@ -239,7 +254,7 @@ img {
   line-height: 2em;
 }
 
-.price {
+.description_product .price {
   font-size: 2em;
 }
 
@@ -248,13 +263,22 @@ img {
 }
 
 .cart {
+  display: none;
   position: absolute;
-  right: 1em;
+  right: 10em;
+  top: 4em;
   background-color: white;
   width: 30%;
   -webkit-box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
           box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
   border-radius: 15px;
+}
+
+.cart ul {
+  list-style: none;
+  padding: 0;
+  line-height: 2em;
+  color: #515151;
 }
 
 .cart h3 {
@@ -279,6 +303,11 @@ img {
 
 .cart .delete {
   padding: 1em;
+}
+
+.cart .price {
+  font-weight: bold;
+  font-size: 1.2em;
 }
 
 .cardBtn {

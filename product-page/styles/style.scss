@@ -21,6 +21,20 @@ main > div {
 }
 
 header {
+    .ert {
+        position: relative;
+        .nbr {
+            background-color: orange;
+            position: absolute;
+            width: 110%;
+            text-align: center;
+            color: white;
+            border-radius: 50px;
+            top: -0.7em;
+            right: -1em;
+        }
+    }
+
     img#logo {
         padding-bottom: 2em;
     }
@@ -125,18 +139,26 @@ img {
     p {
         line-height: 2em;
     }
-}
-.price {
-    font-size: 2em;
+    .price {
+        font-size: 2em;
+    }
 }
 .barre {
     text-decoration: line-through;
 }
 
 .cart {
-    // display: none;
+    ul {
+        list-style: none;
+        padding: 0;
+        line-height: 2em;
+        color: rgb(81, 81, 81);
+    }
+
+    display: none;
     position: absolute;
-    right: 1em;
+    right: 10em;
+    top: 4em;
     background-color: white;
     width: 30%;
     box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
@@ -163,6 +185,10 @@ img {
 
     .delete {
         padding: 1em;
+    }
+    .price {
+        font-weight: bold;
+        font-size: 1.2em;
     }
 }
 
