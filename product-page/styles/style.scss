@@ -162,3 +162,24 @@ img {
         }
     }
 }
+
+.popup-img-product {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.831);
+    top: 0;
+    left: 0;
+    height: 100%;
+
+    .img_product {
+        width: 30%;
+        margin: auto;
+    }
+}
+
+.cross {
+    color: white;
+    font-weight: bold;
+    margin: 0.3em;
+    font-size: 1.2em;
+    float: right;
+}
