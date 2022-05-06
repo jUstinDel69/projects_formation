@@ -115,6 +115,15 @@ img {
         font-size: 1.1em;
         border-radius: 10px;
         cursor: pointer;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-around;
+
+        text-align: center;
+        img {
+            width: 100%;
+        }
     }
     button.nbr {
         background-color: transparent;
@@ -254,4 +263,14 @@ img {
     font-size: 1.2em;
     float: right;
     z-index: 999;
+}
+button {
+    cursor: pointer;
+}
+#nbrProduct {
+    border: 1px solid rgb(181, 181, 181);
+    width: 100%;
+    text-align: center;
+    padding: 0.5em;
+    border-radius: 7px;
 }
