@@ -33,10 +33,12 @@
       <div class="fb-10">
         <div class="cardBtn">
           <img src="images/icon-cart.svg" alt="">
-          <div class="cart" id="cart">
+          <div class="cart">
             <h3>Cart</h3>
-            <div class="product">
-              Your cart is empty
+            <div id="cartContainer">
+              <div class="product">
+                Your cart is empty
+              </div>
             </div>
           </div>
         </div>
@@ -65,21 +67,21 @@
       </p>
 
       <div>
-        <span class="price">
+        <span class="price" id="price">
           $125.00
         </span>
         <span class="reduction">50%</span>
       </div>
       </h4>
-      <span class="barre">
+      <span class="barre" id="promo">
         $250.00
       </span>
 
       <div class="flex">
         <div class="fb-50 flex">
-          <button class="nbr">-</button>
-          0
-          <button class="nbr">+</button>
+          <button class="nbr" id="moins">-</button>
+          <span id="nbrProduct">0</span>
+          <button class="nbr" id="plus">+</button>
         </div>
         <div class="fb-50">
           <button class="cartButton" id="cartButton">
